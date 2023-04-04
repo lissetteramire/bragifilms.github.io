@@ -1,0 +1,57 @@
+/*Definicion general del color de fondo de la pagina y de la letra*/
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*Estilo para las imagenes tamano*/
+img {
+  width: 200px;
+  height: auto;
+}
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+header {
+  background-color: #666666;
+}
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movies {
+  background-color: #666666;
+}
+
+.proyects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movies10 {
+  background-color: #666666;
+}
+
+/* Footer styles */
+footer {
+  background-color: #666666;
+  padding: 1rem;
+  text-align: center;
+}
